@@ -28,6 +28,9 @@ function game.InitializeRewardStores(a) end
 function game.IsRoomRewardEligible(a, b, c, d, e) end
 ---@alias game-Scripts-RewardLogic.IsRoomRewardEligible ...
 
+function game.RewardStoreAddPriority(a, b) end
+---@alias game-Scripts-RewardLogic.RewardStoreAddPriority ...
+
 function game.SetupClockworkGoalReward(a, b, c, d, e, f) end
 ---@alias game-Scripts-RewardLogic.SetupClockworkGoalReward ...
 

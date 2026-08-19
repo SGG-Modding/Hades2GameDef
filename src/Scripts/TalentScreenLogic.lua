@@ -7,6 +7,9 @@ function game.CreateTalentTreeIcons(a, b) end
 function game.HighlightTalentButton(a) end
 ---@alias game-Scripts-TalentScreenLogic.HighlightTalentButton ...
 
+function game.InvalidTalentActionPresentation(a, b) end
+---@alias game-Scripts-TalentScreenLogic.InvalidTalentActionPresentation ...
+
 function game.LeaveTalentTree(a, b) end
 ---@alias game-Scripts-TalentScreenLogic.LeaveTalentTree ...
 
@@ -19,7 +22,7 @@ function game.MouseOverTalentButton(a) end
 function game.OnTalentPressed(a, b) end
 ---@alias game-Scripts-TalentScreenLogic.OnTalentPressed ...
 
-function game.OpenTalentScreen(a, b) end
+function game.OpenTalentScreen(a, b, c) end
 ---@alias game-Scripts-TalentScreenLogic.OpenTalentScreen ...
 
 function game.RecreateTalentTree(a, b) end
@@ -28,10 +31,10 @@ function game.RecreateTalentTree(a, b) end
 function game.TryCloseTalentTree(a, b) end
 ---@alias game-Scripts-TalentScreenLogic.TryCloseTalentTree ...
 
-function game.UpdateAdditionalTalentPointButton(a) end
+function game.UpdateAdditionalTalentPointButton(a, b) end
 ---@alias game-Scripts-TalentScreenLogic.UpdateAdditionalTalentPointButton ...
 
-function game.UpdateTalentButtons(a) end
+function game.UpdateTalentButtons(a, b) end
 ---@alias game-Scripts-TalentScreenLogic.UpdateTalentButtons ...
 
 function game.UpdateTalentContextualAction(a) end

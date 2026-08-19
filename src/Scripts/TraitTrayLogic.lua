@@ -1,12 +1,6 @@
 ---@meta game-Scripts-TraitTrayLogic
 local game = {}
 
-function game.CleanRecentTraitsRecord() end
----@alias game-Scripts-TraitTrayLogic.CleanRecentTraitsRecord ...
-
-function game.GetTraitIndex(a) end
----@alias game-Scripts-TraitTrayLogic.GetTraitIndex ...
-
 function game.IsPossibleMetaUpgradeAutoPin(a) end
 ---@alias game-Scripts-TraitTrayLogic.IsPossibleMetaUpgradeAutoPin ...
 
@@ -58,7 +52,7 @@ function game.TraitTrayScreenCategoryMouseOff(a) end
 function game.TraitTrayScreenCategoryMouseOver(a) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayScreenCategoryMouseOver ...
 
-function game.TraitTrayScreenClose(a, b) end
+function game.TraitTrayScreenClose(a, b, c) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayScreenClose ...
 
 function game.TraitTrayScreenInfo(a, b) end
@@ -82,13 +76,19 @@ function game.TraitTrayScreenSetupTabs(a, b) end
 function game.TraitTrayScreenShowCategory(a, b, c) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayScreenShowCategory ...
 
+function game.TraitTrayShouldShowInfoButton(a, b) end
+---@alias game-Scripts-TraitTrayLogic.TraitTrayShouldShowInfoButton ...
+
 function game.TraitTrayShowMetaUpgrades(a, b, c) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayShowMetaUpgrades ...
+
+function game.TraitTrayShowOverflowTraits(a, b, c) end
+---@alias game-Scripts-TraitTrayLogic.TraitTrayShowOverflowTraits ...
 
 function game.TraitTrayShowShrineUpgrades(a, b, c) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayShowShrineUpgrades ...
 
-function game.TraitTrayShowTraits(a, b, c) end
+function game.TraitTrayShowTraits(a, b, c, d) end
 ---@alias game-Scripts-TraitTrayLogic.TraitTrayShowTraits ...
 
 function game.TraitTrayUpdatePinLocations(a, b) end

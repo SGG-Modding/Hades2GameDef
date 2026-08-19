@@ -1,9 +1,6 @@
 ---@meta game-Scripts-UILogic
 local game = {}
 
-function game.AddContextualAction(a, b, c) end
----@alias game-Scripts-UILogic.AddContextualAction ...
-
 function game.AddResourceCostDisplay(a, b, c, d) end
 ---@alias game-Scripts-UILogic.AddResourceCostDisplay ...
 
@@ -16,10 +13,16 @@ function game.AltAspectRatioFramesHide() end
 function game.AltAspectRatioFramesShow() end
 ---@alias game-Scripts-UILogic.AltAspectRatioFramesShow ...
 
+function game.ApproximateStringWidth(a) end
+---@alias game-Scripts-UILogic.ApproximateStringWidth ...
+
 function game.AreScreensActive(a) end
 ---@alias game-Scripts-UILogic.AreScreensActive ...
 
-function game.AttachChildrenFromData(a, b, c, d) end
+function game.AreScreensInactiveExcluding(a) end
+---@alias game-Scripts-UILogic.AreScreensInactiveExcluding ...
+
+function game.AttachChildrenFromData(a, b, c, d, e) end
 ---@alias game-Scripts-UILogic.AttachChildrenFromData ...
 
 function game.BossHealthBarPresentation(a) end
@@ -27,9 +30,6 @@ function game.BossHealthBarPresentation(a) end
 
 function game.CheckCallLock(a) end
 ---@alias game-Scripts-UILogic.CheckCallLock ...
-
-function game.CheckInputRepeat(a, b, c) end
----@alias game-Scripts-UILogic.CheckInputRepeat ...
 
 function game.CheckRemoveGroupHealthBar(a) end
 ---@alias game-Scripts-UILogic.CheckRemoveGroupHealthBar ...
@@ -40,7 +40,7 @@ function game.ClearCameraFocusOverride() end
 function game.ClearHealthShroud() end
 ---@alias game-Scripts-UILogic.ClearHealthShroud ...
 
-function game.CloseScreen(a, b, c) end
+function game.CloseScreen(a, b, c, d) end
 ---@alias game-Scripts-UILogic.CloseScreen ...
 
 function game.CloseScreenButton(a, b) end
@@ -49,7 +49,7 @@ function game.CloseScreenButton(a, b) end
 function game.CreateBossHealthBar(a) end
 ---@alias game-Scripts-UILogic.CreateBossHealthBar ...
 
-function game.CreateComponentFromData(a, b) end
+function game.CreateComponentFromData(a, b, c) end
 ---@alias game-Scripts-UILogic.CreateComponentFromData ...
 
 function game.CreateGroupHealthBar(a) end
@@ -103,8 +103,14 @@ function game.GetComponentByHotkey(a, b) end
 function game.GetComponentById(a, b) end
 ---@alias game-Scripts-UILogic.GetComponentById ...
 
+function game.GetComponentDataByName(a, b) end
+---@alias game-Scripts-UILogic.GetComponentDataByName ...
+
 function game.GetLowHealthUIThreshold(a) end
 ---@alias game-Scripts-UILogic.GetLowHealthUIThreshold ...
+
+function game.GetTopScreen() end
+---@alias game-Scripts-UILogic.GetTopScreen ...
 
 function game.GetUseText(a) end
 ---@alias game-Scripts-UILogic.GetUseText ...
@@ -114,9 +120,6 @@ function game.GroupHealthBarPresentation(a) end
 
 function game.HandleScreenInput(a) end
 ---@alias game-Scripts-UILogic.HandleScreenInput ...
-
-function game.HandleWASDInput(a) end
----@alias game-Scripts-UILogic.HandleWASDInput ...
 
 function game.HideAllUseButtons() end
 ---@alias game-Scripts-UILogic.HideAllUseButtons ...
@@ -133,8 +136,14 @@ function game.IsScreenOpen(a) end
 function game.MouseOffContextualAction(a) end
 ---@alias game-Scripts-UILogic.MouseOffContextualAction ...
 
+function game.MouseOffNarrativeChoiceButton(a) end
+---@alias game-Scripts-UILogic.MouseOffNarrativeChoiceButton ...
+
 function game.MouseOverContextualAction(a) end
 ---@alias game-Scripts-UILogic.MouseOverContextualAction ...
+
+function game.MouseOverNarrativeChoiceButton(a) end
+---@alias game-Scripts-UILogic.MouseOverNarrativeChoiceButton ...
 
 function game.OnLanguageChanged(a) end
 ---@alias game-Scripts-UILogic.OnLanguageChanged ...
@@ -162,6 +171,9 @@ function game.SetCameraFocusOverride() end
 
 function game.SetGamepadNavigation(a) end
 ---@alias game-Scripts-UILogic.SetGamepadNavigation ...
+
+function game.SetupFormatContainers(a) end
+---@alias game-Scripts-UILogic.SetupFormatContainers ...
 
 function game.ShowAllUseButtons() end
 ---@alias game-Scripts-UILogic.ShowAllUseButtons ...

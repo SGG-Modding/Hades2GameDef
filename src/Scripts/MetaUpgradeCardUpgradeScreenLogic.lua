@@ -13,6 +13,9 @@ function game.ExitUpgradeMode(a, b) end
 function game.MetaUpgradeAtMaxLevel(a) end
 ---@alias game-Scripts-MetaUpgradeCardUpgradeScreenLogic.MetaUpgradeAtMaxLevel ...
 
+function game.MetaUpgradeCardUpgradeScreenInspect(a, b) end
+---@alias game-Scripts-MetaUpgradeCardUpgradeScreenLogic.MetaUpgradeCardUpgradeScreenInspect ...
+
 function game.MetaUpgradeCardUpgradeScreenPinItem(a, b) end
 ---@alias game-Scripts-MetaUpgradeCardUpgradeScreenLogic.MetaUpgradeCardUpgradeScreenPinItem ...
 

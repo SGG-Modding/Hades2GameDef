@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added `---@field [any] any` to `game.GameState`, removing subfield reference warnings
+
+### Changed
+
+- Updated for Post-Launch Patch 2 - Hotfix 5
+- Removed baked-in live values, such as screen resolution dependent values
+
 ## [2.0.0] - 2024-05-21
 
 ### Added

@@ -1,10 +1,16 @@
 ---@meta game-Scripts-PowersPresentation
 local game = {}
 
-function game.ZeusCloudFinishPresentation(a, b) end
----@alias game-Scripts-PowersPresentation.ZeusCloudFinishPresentation ...
+function game.CreateAlliedEnemyPresentation(a) end
+---@alias game-Scripts-PowersPresentation.CreateAlliedEnemyPresentation ...
 
-function game.ZeusCloudStartPresentation(a, b, c) end
----@alias game-Scripts-PowersPresentation.ZeusCloudStartPresentation ...
+function game.CreateShadeMercAspectPresentation(a) end
+---@alias game-Scripts-PowersPresentation.CreateShadeMercAspectPresentation ...
+
+function game.HandleAresSprintSound(a) end
+---@alias game-Scripts-PowersPresentation.HandleAresSprintSound ...
+
+function game.HeavyArmorInitialPresentation() end
+---@alias game-Scripts-PowersPresentation.HeavyArmorInitialPresentation ...
 
 return game

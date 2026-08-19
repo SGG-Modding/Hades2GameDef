@@ -13,6 +13,9 @@ function game.GetMaxAmmo(a) end
 function game.ReloadAmmo(a) end
 ---@alias game-Scripts-AmmoLogic.ReloadAmmo ...
 
+function game.ResetAmmo(a, b) end
+---@alias game-Scripts-AmmoLogic.ResetAmmo ...
+
 function game.SpendAmmo(a) end
 ---@alias game-Scripts-AmmoLogic.SpendAmmo ...
 

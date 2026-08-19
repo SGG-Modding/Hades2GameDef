@@ -19,10 +19,10 @@ function game.CheckObjectiveSetSource(a, b) end
 function game.ClearObjectives() end
 ---@alias game-Scripts-ObjectiveLogic.ClearObjectives ...
 
-function game.CreateObjectiveUI() end
+function game.CreateObjectiveUI(a) end
 ---@alias game-Scripts-ObjectiveLogic.CreateObjectiveUI ...
 
-function game.HideObjectivesUI() end
+function game.HideObjectivesUI(a, b) end
 ---@alias game-Scripts-ObjectiveLogic.HideObjectivesUI ...
 
 function game.IsObjectiveSetEligible(a, b, c) end
@@ -37,12 +37,6 @@ function game.MarkObjectiveFailed(a, b) end
 function game.MarkObjectivesComplete(a) end
 ---@alias game-Scripts-ObjectiveLogic.MarkObjectivesComplete ...
 
-function game.PulseObjectiveNegative(a) end
----@alias game-Scripts-ObjectiveLogic.PulseObjectiveNegative ...
-
-function game.PulseObjectivePositive(a) end
----@alias game-Scripts-ObjectiveLogic.PulseObjectivePositive ...
-
 function game.ResetObjectives() end
 ---@alias game-Scripts-ObjectiveLogic.ResetObjectives ...
 
@@ -52,7 +46,7 @@ function game.ShowObjective(a, b) end
 function game.ShowObjectiveSet(a, b) end
 ---@alias game-Scripts-ObjectiveLogic.ShowObjectiveSet ...
 
-function game.ShowObjectivesUI() end
+function game.ShowObjectivesUI(a) end
 ---@alias game-Scripts-ObjectiveLogic.ShowObjectivesUI ...
 
 function game.UpdateObjective(a, b, c, d) end

@@ -1,13 +1,16 @@
 ---@meta game-Scripts-GhostAdminPresentation
 local game = {}
 
-function game.CauldronIncantationPresentation(a, b, c, d, e) end
+function game.ApplyCauldronCookTopGraphic(a, b) end
+---@alias game-Scripts-GhostAdminPresentation.ApplyCauldronCookTopGraphic ...
+
+function game.CauldronIncantationPresentation(a, b, c) end
 ---@alias game-Scripts-GhostAdminPresentation.CauldronIncantationPresentation ...
 
-function game.CauldronResourceSpendPresentation(a, b, c, d, e) end
+function game.CauldronResourceSpendPresentation(a, b, c) end
 ---@alias game-Scripts-GhostAdminPresentation.CauldronResourceSpendPresentation ...
 
-function game.CauldronSceneSetup(a, b) end
+function game.CauldronSceneSetup(a, b, c) end
 ---@alias game-Scripts-GhostAdminPresentation.CauldronSceneSetup ...
 
 function game.GhostAdminItemPurchasedPresentation(a, b, c) end
@@ -19,26 +22,17 @@ function game.GhostAdminMouseOffScrollArrow(a) end
 function game.GhostAdminMouseOverScrollArrow(a) end
 ---@alias game-Scripts-GhostAdminPresentation.GhostAdminMouseOverScrollArrow ...
 
-function game.GhostAdminPostDisplayCategoryPresentation(a) end
----@alias game-Scripts-GhostAdminPresentation.GhostAdminPostDisplayCategoryPresentation ...
-
 function game.GhostAdminScreenClosedPresentation(a, b) end
 ---@alias game-Scripts-GhostAdminPresentation.GhostAdminScreenClosedPresentation ...
-
-function game.GhostAdminScreenOpenFinishedPresentation(a) end
----@alias game-Scripts-GhostAdminPresentation.GhostAdminScreenOpenFinishedPresentation ...
 
 function game.GhostAdminScreenRevealNewItemsPresentation(a, b) end
 ---@alias game-Scripts-GhostAdminPresentation.GhostAdminScreenRevealNewItemsPresentation ...
 
-function game.GhostAdminScreenScrollPresentation(a, b) end
----@alias game-Scripts-GhostAdminPresentation.GhostAdminScreenScrollPresentation ...
-
 function game.GhostAdminSelectCategoryPresentation(a, b) end
 ---@alias game-Scripts-GhostAdminPresentation.GhostAdminSelectCategoryPresentation ...
 
-function game.GhostAdminSessionCompletePresentation(a, b) end
----@alias game-Scripts-GhostAdminPresentation.GhostAdminSessionCompletePresentation ...
+function game.GhostAdminUpdateScrollbarPresentation(a, b) end
+---@alias game-Scripts-GhostAdminPresentation.GhostAdminUpdateScrollbarPresentation ...
 
 function game.MouseOffGhostAdminCategory(a) end
 ---@alias game-Scripts-GhostAdminPresentation.MouseOffGhostAdminCategory ...
@@ -52,13 +46,16 @@ function game.MouseOverGhostAdminCategory(a) end
 function game.MouseOverGhostAdminItem(a) end
 ---@alias game-Scripts-GhostAdminPresentation.MouseOverGhostAdminItem ...
 
-function game.PostActivateCriticalItemPresentation(a, b) end
+function game.PostActivateCriticalItemPresentation(a) end
 ---@alias game-Scripts-GhostAdminPresentation.PostActivateCriticalItemPresentation ...
 
 function game.PostIncantationPresentationUnlockText(a) end
 ---@alias game-Scripts-GhostAdminPresentation.PostIncantationPresentationUnlockText ...
 
-function game.PreActivateCriticalItemPresentation(a, b, c, d) end
+function game.PreActivateCriticalItemBackgroundPresentation(a) end
+---@alias game-Scripts-GhostAdminPresentation.PreActivateCriticalItemBackgroundPresentation ...
+
+function game.PreActivateCriticalItemPresentation(a, b) end
 ---@alias game-Scripts-GhostAdminPresentation.PreActivateCriticalItemPresentation ...
 
 function game.SetupCauldronCookActivePresentation(a, b) end

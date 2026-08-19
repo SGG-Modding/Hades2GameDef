@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added `---@field [any] any` to table classes, removing subfield reference warnings
+- Added `---@field [any] any` to `game.GameState`, removing subfield reference warnings
 
 ### Changed
 

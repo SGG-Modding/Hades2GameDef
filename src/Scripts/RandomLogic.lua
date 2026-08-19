@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-RandomLogic*NextSeeds
----@field [any] any
 
 ---@type game-Scripts-RandomLogic*NextSeeds
 game.NextSeeds = ...

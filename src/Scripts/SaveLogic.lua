@@ -2,84 +2,72 @@
 local game = {}
 
 ---@class game-Scripts-SaveLogic*AudioSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*AudioSaveWhitelist
 game.AudioSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.AudioSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*EncounterSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*EncounterSaveWhitelist
 game.EncounterSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.EncounterSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*GlobalSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*GlobalSaveWhitelist
 game.GlobalSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.GlobalSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*MainRunSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*MainRunSaveWhitelist
 game.MainRunSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.MainRunSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*MapStateWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*MapStateWhitelist
 game.MapStateWhitelist = ...
 ---@alias game-Scripts-SaveLogic.MapStateWhitelist ...
 
 ---@class game-Scripts-SaveLogic*PermanentRunSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*PermanentRunSaveWhitelist
 game.PermanentRunSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.PermanentRunSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*Pickle
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*Pickle
 game.Pickle = ...
 ---@alias game-Scripts-SaveLogic.Pickle ...
 
 ---@class game-Scripts-SaveLogic*PrevRunHeroSaveBlacklist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*PrevRunHeroSaveBlacklist
 game.PrevRunHeroSaveBlacklist = ...
 ---@alias game-Scripts-SaveLogic.PrevRunHeroSaveBlacklist ...
 
 ---@class game-Scripts-SaveLogic*PrevRunSaveBlacklist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*PrevRunSaveBlacklist
 game.PrevRunSaveBlacklist = ...
 ---@alias game-Scripts-SaveLogic.PrevRunSaveBlacklist ...
 
 ---@class game-Scripts-SaveLogic*RecentRunSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*RecentRunSaveWhitelist
 game.RecentRunSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.RecentRunSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*RecentRunTablesSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*RecentRunTablesSaveWhitelist
 game.RecentRunTablesSaveWhitelist = ...
 ---@alias game-Scripts-SaveLogic.RecentRunTablesSaveWhitelist ...
 
 ---@class game-Scripts-SaveLogic*RoomSaveWhitelist
----@field [any] any
 
 ---@type game-Scripts-SaveLogic*RoomSaveWhitelist
 game.RoomSaveWhitelist = ...

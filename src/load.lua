@@ -26,70 +26,60 @@ game.ScreenScaleY = ...
 ---@alias game-load.ScreenScaleY ...
 
 ---@class game-load*ActiveScreenOrder
----@field [any] any
 
 ---@type game-load*ActiveScreenOrder
 game.ActiveScreenOrder = ...
 ---@alias game-load.ActiveScreenOrder ...
 
 ---@class game-load*ActiveScreens
----@field [any] any
 
 ---@type game-load*ActiveScreens
 game.ActiveScreens = ...
 ---@alias game-load.ActiveScreens ...
 
 ---@class game-load*CodexStatus
----@field [any] any
 
 ---@type game-load*CodexStatus
 game.CodexStatus = ...
 ---@alias game-load.CodexStatus ...
 
 ---@class game-load*ConfigOptionCache
----@field [any] any
 
 ---@type game-load*ConfigOptionCache
 game.ConfigOptionCache = ...
 ---@alias game-load.ConfigOptionCache ...
 
 ---@class game-load*CurrentHubRoom
----@field [any] any
 
 ---@type game-load*CurrentHubRoom
 game.CurrentHubRoom = ...
 ---@alias game-load.CurrentHubRoom ...
 
 ---@class game-load*CurrentRun
----@field [any] any
 
 ---@type game-load*CurrentRun
 game.CurrentRun = ...
 ---@alias game-load.CurrentRun ...
 
 ---@class game-load*DeferredObstacleInitialization
----@field [any] any
 
 ---@type game-load*DeferredObstacleInitialization
 game.DeferredObstacleInitialization = ...
 ---@alias game-load.DeferredObstacleInitialization ...
 
 ---@class game-load*EnemyHealthDisplayAnchors
----@field [any] any
 
 ---@type game-load*EnemyHealthDisplayAnchors
 game.EnemyHealthDisplayAnchors = ...
 ---@alias game-load.EnemyHealthDisplayAnchors ...
 
 ---@class game-load*FrameState
----@field [any] any
 
 ---@type game-load*FrameState
 game.FrameState = ...
 ---@alias game-load.FrameState ...
 
 ---@class game-load*GamepadCursorRequests
----@field [any] any
 
 ---@type game-load*GamepadCursorRequests
 game.GamepadCursorRequests = ...
@@ -103,49 +93,42 @@ game.GameState = ...
 ---@alias game-load.GameState ...
 
 ---@class game-load*MapState
----@field [any] any
 
 ---@type game-load*MapState
 game.MapState = ...
 ---@alias game-load.MapState ...
 
 ---@class game-load*PrevRun
----@field [any] any
 
 ---@type game-load*PrevRun
 game.PrevRun = ...
 ---@alias game-load.PrevRun ...
 
 ---@class game-load*QueuedTextLines
----@field [any] any
 
 ---@type game-load*QueuedTextLines
 game.QueuedTextLines = ...
 ---@alias game-load.QueuedTextLines ...
 
 ---@class game-load*ScreenAnchors
----@field [any] any
 
 ---@type game-load*ScreenAnchors
 game.ScreenAnchors = ...
 ---@alias game-load.ScreenAnchors ...
 
 ---@class game-load*ScreenState
----@field [any] any
 
 ---@type game-load*ScreenState
 game.ScreenState = ...
 ---@alias game-load.ScreenState ...
 
 ---@class game-load*SessionMapState
----@field [any] any
 
 ---@type game-load*SessionMapState
 game.SessionMapState = ...
 ---@alias game-load.SessionMapState ...
 
 ---@class game-load*UIScriptsDeferred
----@field [any] any
 
 ---@type game-load*UIScriptsDeferred
 game.UIScriptsDeferred = ...

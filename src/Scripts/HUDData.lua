@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-HUDData*MoneyUI
----@field [any] any
 
 ---@type game-Scripts-HUDData*MoneyUI
 game.MoneyUI = ...

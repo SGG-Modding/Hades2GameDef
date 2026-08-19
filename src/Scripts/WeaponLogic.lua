@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-WeaponLogic*BlinkControlReleaseWeapons
----@field [any] any
 
 ---@type game-Scripts-WeaponLogic*BlinkControlReleaseWeapons
 game.BlinkControlReleaseWeapons = ...

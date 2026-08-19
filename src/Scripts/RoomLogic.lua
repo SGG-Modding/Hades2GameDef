@@ -5,7 +5,6 @@ game.RoomThreadName = "RoomThread"
 ---@alias game-Scripts-RoomLogic.RoomThreadName ...
 
 ---@class game-Scripts-RoomLogic*SessionState
----@field [any] any
 
 ---@type game-Scripts-RoomLogic*SessionState
 game.SessionState = ...

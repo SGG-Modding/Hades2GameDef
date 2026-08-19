@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-SellTraitData*SellTraitData
----@field [any] any
 
 ---@type game-Scripts-SellTraitData*SellTraitData
 game.SellTraitData = ...

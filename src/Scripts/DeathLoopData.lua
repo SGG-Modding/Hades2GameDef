@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-DeathLoopData*HubRoomData
----@field [any] any
 
 ---@type game-Scripts-DeathLoopData*HubRoomData
 game.HubRoomData = ...

@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-SurfaceShopData*SurfaceShopData
----@field [any] any
 
 ---@type game-Scripts-SurfaceShopData*SurfaceShopData
 game.SurfaceShopData = ...

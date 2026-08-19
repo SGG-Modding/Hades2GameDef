@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-EffectLogic*CastLockWeapons
----@field [any] any
 
 ---@type game-Scripts-EffectLogic*CastLockWeapons
 game.CastLockWeapons = ...

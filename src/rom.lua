@@ -3,7 +3,6 @@ local game = {}
 
 ---TODO: ReturnOfModding / Hell2Modding docs
 ---@class game-rom*rom
----@field [any] any
 
 ---@type game-rom*rom
 game.rom = ...

@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-AudioLogic*AudioState
----@field [any] any
 
 ---@type game-Scripts-AudioLogic*AudioState
 game.AudioState = ...

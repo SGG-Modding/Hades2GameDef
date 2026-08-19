@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-StoryResetData*StoryResetData
----@field [any] any
 
 ---@type game-Scripts-StoryResetData*StoryResetData
 game.StoryResetData = ...

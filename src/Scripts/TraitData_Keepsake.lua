@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-TraitData_Keepsake*PersistentKeepsakeKeys
----@field [any] any
 
 ---@type game-Scripts-TraitData_Keepsake*PersistentKeepsakeKeys
 game.PersistentKeepsakeKeys = ...

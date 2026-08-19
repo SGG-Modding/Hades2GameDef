@@ -11,56 +11,48 @@ game._worldTimeUnmodified = 0
 ---@alias game-Scripts-Main._worldTimeUnmodified ...
 
 ---@class game-Scripts-Main*_coroutinePool
----@field [any] any
 
 ---@type game-Scripts-Main*_coroutinePool
 game._coroutinePool = ...
 ---@alias game-Scripts-Main._coroutinePool ...
 
 ---@class game-Scripts-Main*_eventListeners
----@field [any] any
 
 ---@type game-Scripts-Main*_eventListeners
 game._eventListeners = ...
 ---@alias game-Scripts-Main._eventListeners ...
 
 ---@class game-Scripts-Main*_events
----@field [any] any
 
 ---@type game-Scripts-Main*_events
 game._events = ...
 ---@alias game-Scripts-Main._events ...
 
 ---@class game-Scripts-Main*_eventTimeoutRecord
----@field [any] any
 
 ---@type game-Scripts-Main*_eventTimeoutRecord
 game._eventTimeoutRecord = ...
 ---@alias game-Scripts-Main._eventTimeoutRecord ...
 
 ---@class game-Scripts-Main*_tagsToKill
----@field [any] any
 
 ---@type game-Scripts-Main*_tagsToKill
 game._tagsToKill = ...
 ---@alias game-Scripts-Main._tagsToKill ...
 
 ---@class game-Scripts-Main*_threads
----@field [any] any
 
 ---@type game-Scripts-Main*_threads
 game._threads = ...
 ---@alias game-Scripts-Main._threads ...
 
 ---@class game-Scripts-Main*_workingThreads
----@field [any] any
 
 ---@type game-Scripts-Main*_workingThreads
 game._workingThreads = ...
 ---@alias game-Scripts-Main._workingThreads ...
 
 ---@class game-Scripts-Main*NotifyResultsTable
----@field [any] any
 
 ---@type game-Scripts-Main*NotifyResultsTable
 game.NotifyResultsTable = ...

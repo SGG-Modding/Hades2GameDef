@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-CombatPresentation*PolymorphPresentationData
----@field [any] any
 
 ---@type game-Scripts-CombatPresentation*PolymorphPresentationData
 game.PolymorphPresentationData = ...

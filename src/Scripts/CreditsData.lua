@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-CreditsData*CreditsData
----@field [any] any
 
 ---@type game-Scripts-CreditsData*CreditsData
 game.CreditsData = ...

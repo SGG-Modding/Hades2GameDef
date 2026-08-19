@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-KeepsakeData*GiftData
----@field [any] any
 
 ---@type game-Scripts-KeepsakeData*GiftData
 game.GiftData = ...

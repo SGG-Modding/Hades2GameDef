@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-RunHistoryData*RunResultData
----@field [any] any
 
 ---@type game-Scripts-RunHistoryData*RunResultData
 game.RunResultData = ...

@@ -2,7 +2,6 @@
 local game = {}
 
 ---@class game-Scripts-ColorData*Color
----@field [any] any
 
 ---@type game-Scripts-ColorData*Color
 game.Color = ...

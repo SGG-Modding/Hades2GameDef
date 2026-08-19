@@ -7,9 +7,6 @@ function game.GameStatScreenClosePresentation(a, b) end
 function game.GameStatsScreenOpenPresentation(a) end
 ---@alias game-Scripts-GameStatsPresentation.GameStatsScreenOpenPresentation ...
 
-function game.GameStatsScreenScrollPresentation(a, b) end
----@alias game-Scripts-GameStatsPresentation.GameStatsScreenScrollPresentation ...
-
 function game.GameStatsScreenShowCategoryPresentation(a) end
 ---@alias game-Scripts-GameStatsPresentation.GameStatsScreenShowCategoryPresentation ...
 

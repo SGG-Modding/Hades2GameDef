@@ -10,6 +10,9 @@ function game.MarketPurchaseSuccessPresentation(a, b) end
 function game.MarketPurchaseSuccessRepeatablePresentation(a) end
 ---@alias game-Scripts-MarketPresentation.MarketPurchaseSuccessRepeatablePresentation ...
 
+function game.MarketRapidPurchasePresentation(a, b) end
+---@alias game-Scripts-MarketPresentation.MarketRapidPurchasePresentation ...
+
 function game.MarketScreenClosePresentation(a, b) end
 ---@alias game-Scripts-MarketPresentation.MarketScreenClosePresentation ...
 
@@ -24,6 +27,9 @@ function game.MarketScreenOpenPresentation(a) end
 
 function game.MarketScreenPurchaseFinishPresentation(a, b, c) end
 ---@alias game-Scripts-MarketPresentation.MarketScreenPurchaseFinishPresentation ...
+
+function game.MarketSellAllPresentation(a, b) end
+---@alias game-Scripts-MarketPresentation.MarketSellAllPresentation ...
 
 function game.MarketSessionCompletePresentation(a, b) end
 ---@alias game-Scripts-MarketPresentation.MarketSessionCompletePresentation ...

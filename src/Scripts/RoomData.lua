@@ -2,6 +2,7 @@
 local game = {}
 
 ---@class game-Scripts-RoomData*RoomEventData
+---@field [any] any
 
 ---@type game-Scripts-RoomData*RoomEventData
 game.RoomEventData = ...

@@ -4,16 +4,22 @@ local game = {}
 function game.CloseMarketScreen(a, b) end
 ---@alias game-Scripts-MarketLogic.CloseMarketScreen ...
 
-function game.GenerateMarketItems() end
+function game.GenerateMarketItems(a, b) end
 ---@alias game-Scripts-MarketLogic.GenerateMarketItems ...
 
 function game.HandleMarketPurchase(a, b) end
 ---@alias game-Scripts-MarketLogic.HandleMarketPurchase ...
 
+function game.HasAllWorldUpgradesRequiringResource(a, b) end
+---@alias game-Scripts-MarketLogic.HasAllWorldUpgradesRequiringResource ...
+
 function game.HasUnviewedMarketItem(a, b) end
 ---@alias game-Scripts-MarketLogic.HasUnviewedMarketItem ...
 
-function game.MarketScreenDisplayCategory(a, b) end
+function game.IsMarketItemInStock(a, b) end
+---@alias game-Scripts-MarketLogic.IsMarketItemInStock ...
+
+function game.MarketScreenDisplayCategory(a, b, c) end
 ---@alias game-Scripts-MarketLogic.MarketScreenDisplayCategory ...
 
 function game.MarketScreenNextCategory(a, b) end
@@ -25,7 +31,13 @@ function game.MarketScreenPrevCategory(a, b) end
 function game.MarketScreenSelectCategory(a, b) end
 ---@alias game-Scripts-MarketLogic.MarketScreenSelectCategory ...
 
-function game.MarketScreenUpdateResourceStatus(a, b) end
+function game.MarketScreenSellAll(a, b) end
+---@alias game-Scripts-MarketLogic.MarketScreenSellAll ...
+
+function game.MarketScreenShowSellAllPrompt(a) end
+---@alias game-Scripts-MarketLogic.MarketScreenShowSellAllPrompt ...
+
+function game.MarketScreenUpdateResourceStatus(a) end
 ---@alias game-Scripts-MarketLogic.MarketScreenUpdateResourceStatus ...
 
 function game.OpenMarketScreen(a) end

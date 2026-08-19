@@ -1,11 +1,8 @@
 ---@meta game-Scripts-GiftPresentation
 local game = {}
 
-function game.GetGiftIcon(a, b, c) end
----@alias game-Scripts-GiftPresentation.GetGiftIcon ...
-
-function game.GiftTrackUnlockedPresentation(a) end
----@alias game-Scripts-GiftPresentation.GiftTrackUnlockedPresentation ...
+function game.MaxedRelationshipPresentation(a, b) end
+---@alias game-Scripts-GiftPresentation.MaxedRelationshipPresentation ...
 
 function game.PlayerReceivedGiftPresentation(a, b) end
 ---@alias game-Scripts-GiftPresentation.PlayerReceivedGiftPresentation ...
@@ -18,5 +15,8 @@ function game.ReceivedGiftPresentationHearts(a, b) end
 
 function game.ReceivedGiftPresentationPost(a) end
 ---@alias game-Scripts-GiftPresentation.ReceivedGiftPresentationPost ...
+
+function game.RelationshipAdvancedPresentation(a, b) end
+---@alias game-Scripts-GiftPresentation.RelationshipAdvancedPresentation ...
 
 return game

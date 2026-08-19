@@ -2,10 +2,10 @@
 local game = {}
 
 game._VERSION = "Lua 5.2"
----@alias game-engine._VERSION ...
+---@alias game-base._VERSION ...
 
 game._G = game
----@alias game-engine._G ...
+---@alias game-base._G ...
 
 game.coroutine = coroutine
 ---@alias game-base.coroutine ...
@@ -123,6 +123,7 @@ function game.randomseed(...) end
 
 ---TODO: bit32 module docs
 ---@class game-base*bit32
+---@field [any] any
 
 ---@type game-base*bit32
 game.bit32 = ...
@@ -130,6 +131,7 @@ game.bit32 = ...
 
 ---TODO: memory module docs
 ---@class game-base*memory
+---@field [any] any
 
 ---@type game-base*memory
 game.memory = ...
@@ -140,6 +142,7 @@ game.memory = ...
 ---@class game-base*luabins
 ---@field public save fun(...: game-base*luabins-valid): binary: string?, error: string?
 ---@field public load fun(binary: string): status: true|nil, result_or_error: game-base*luabins-valid?, ...: game-base*luabins-valid
+---@field [any] any
 
 ---@type game-base*luabins
 game.luabins = ...

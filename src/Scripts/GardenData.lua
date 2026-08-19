@@ -2,6 +2,7 @@
 local game = {}
 
 ---@class game-Scripts-GardenData*GardenData
+---@field [any] any
 
 ---@type game-Scripts-GardenData*GardenData
 game.GardenData = ...

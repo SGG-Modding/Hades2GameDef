@@ -2,12 +2,14 @@
 local game = {}
 
 ---@class game-Scripts-WeaponSets*UnitSets
+---@field [any] any
 
 ---@type game-Scripts-WeaponSets*UnitSets
 game.UnitSets = ...
 ---@alias game-Scripts-WeaponSets.UnitSets ...
 
 ---@class game-Scripts-WeaponSets*WeaponSets
+---@field [any] any
 
 ---@type game-Scripts-WeaponSets*WeaponSets
 game.WeaponSets = ...

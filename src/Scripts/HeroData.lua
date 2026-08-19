@@ -2,33 +2,52 @@
 local game = {}
 
 ---@class game-Scripts-HeroData*GameOutroData
+---@field [any] any
 
 ---@type game-Scripts-HeroData*GameOutroData
 game.GameOutroData = ...
 ---@alias game-Scripts-HeroData.GameOutroData ...
 
 ---@class game-Scripts-HeroData*GameOutroPriorities
+---@field [any] any
 
 ---@type game-Scripts-HeroData*GameOutroPriorities
 game.GameOutroPriorities = ...
 ---@alias game-Scripts-HeroData.GameOutroPriorities ...
 
 ---@class game-Scripts-HeroData*GlobalModifiers
+---@field [any] any
 
 ---@type game-Scripts-HeroData*GlobalModifiers
 game.GlobalModifiers = ...
 ---@alias game-Scripts-HeroData.GlobalModifiers ...
 
 ---@class game-Scripts-HeroData*HeroData
+---@field [any] any
 
 ---@type game-Scripts-HeroData*HeroData
 game.HeroData = ...
 ---@alias game-Scripts-HeroData.HeroData ...
 
+---@class game-Scripts-HeroData*HeroRepeatableTextLines
+---@field [any] any
+
+---@type game-Scripts-HeroData*HeroRepeatableTextLines
+game.HeroRepeatableTextLines = ...
+---@alias game-Scripts-HeroData.HeroRepeatableTextLines ...
+
 ---@class game-Scripts-HeroData*HeroVoiceLines
+---@field [any] any
 
 ---@type game-Scripts-HeroData*HeroVoiceLines
 game.HeroVoiceLines = ...
 ---@alias game-Scripts-HeroData.HeroVoiceLines ...
+
+---@class game-Scripts-HeroData*PreCacheTraitValues
+---@field [any] any
+
+---@type game-Scripts-HeroData*PreCacheTraitValues
+game.PreCacheTraitValues = ...
+---@alias game-Scripts-HeroData.PreCacheTraitValues ...
 
 return game

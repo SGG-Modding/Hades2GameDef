@@ -2,6 +2,7 @@
 local game = {}
 
 ---@class game-Scripts-KeywordData*KeywordList
+---@field [any] any
 
 ---@type game-Scripts-KeywordData*KeywordList
 game.KeywordList = ...

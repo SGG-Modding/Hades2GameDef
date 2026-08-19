@@ -2,6 +2,7 @@
 local game = {}
 
 ---@class game-Scripts-CostumeData*CostumeData
+---@field [any] any
 
 ---@type game-Scripts-CostumeData*CostumeData
 game.CostumeData = ...

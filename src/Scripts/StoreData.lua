@@ -2,15 +2,10 @@
 local game = {}
 
 ---@class game-Scripts-StoreData*StoreData
+---@field [any] any
 
 ---@type game-Scripts-StoreData*StoreData
 game.StoreData = ...
 ---@alias game-Scripts-StoreData.StoreData ...
-
----@class game-Scripts-StoreData*SurfaceShopData
-
----@type game-Scripts-StoreData*SurfaceShopData
-game.SurfaceShopData = ...
----@alias game-Scripts-StoreData.SurfaceShopData ...
 
 return game

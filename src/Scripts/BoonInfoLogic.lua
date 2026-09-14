@@ -1,6 +1,9 @@
 ---@meta game-Scripts-BoonInfoLogic
 local game = {}
 
+function game.BoonInfoPinItem(a, b) end
+---@alias game-Scripts-BoonInfoLogic.BoonInfoPinItem ...
+
 function game.BoonInfoPopulateTraits(a) end
 ---@alias game-Scripts-BoonInfoLogic.BoonInfoPopulateTraits ...
 
@@ -16,9 +19,6 @@ function game.BoonInfoScreenToggleTooltips(a, b) end
 function game.BoonInfoScreenUpdateTooltipToggle(a, b) end
 ---@alias game-Scripts-BoonInfoLogic.BoonInfoScreenUpdateTooltipToggle ...
 
-function game.BoonInfoSort(a, b) end
----@alias game-Scripts-BoonInfoLogic.BoonInfoSort ...
-
 function game.CloseBoonInfoScreen(a, b) end
 ---@alias game-Scripts-BoonInfoLogic.CloseBoonInfoScreen ...
 
@@ -28,11 +28,20 @@ function game.CreateBoonInfoButton(a, b, c) end
 function game.CreateBoonInfoButtons(a) end
 ---@alias game-Scripts-BoonInfoLogic.CreateBoonInfoButtons ...
 
+function game.CreateLinkedGodRequirementList(a, b, c) end
+---@alias game-Scripts-BoonInfoLogic.CreateLinkedGodRequirementList ...
+
 function game.CreateTraitRequirementList(a, b, c, d, e) end
 ---@alias game-Scripts-BoonInfoLogic.CreateTraitRequirementList ...
 
 function game.CreateTraitRequirements(a, b) end
 ---@alias game-Scripts-BoonInfoLogic.CreateTraitRequirements ...
+
+function game.GetBoonOverrideRarityNameFromData(a) end
+---@alias game-Scripts-BoonInfoLogic.GetBoonOverrideRarityNameFromData ...
+
+function game.GetBoonRarityFromData(a) end
+---@alias game-Scripts-BoonInfoLogic.GetBoonRarityFromData ...
 
 function game.MouseOffBoonInfoItem(a) end
 ---@alias game-Scripts-BoonInfoLogic.MouseOffBoonInfoItem ...
@@ -40,7 +49,7 @@ function game.MouseOffBoonInfoItem(a) end
 function game.MouseOverBoonInfoItem(a) end
 ---@alias game-Scripts-BoonInfoLogic.MouseOverBoonInfoItem ...
 
-function game.ShowBoonInfoScreen(a, b, c, d) end
+function game.ShowBoonInfoScreen(a) end
 ---@alias game-Scripts-BoonInfoLogic.ShowBoonInfoScreen ...
 
 function game.UpdateBoonInfoPageButtons(a) end

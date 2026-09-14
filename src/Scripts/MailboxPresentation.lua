@@ -7,7 +7,7 @@ function game.CharonPointsGrantedPresentation(a, b) end
 function game.MailboxPurchaseFailPresentation(a, b, c) end
 ---@alias game-Scripts-MailboxPresentation.MailboxPurchaseFailPresentation ...
 
-function game.MailboxPurchaseSuccessPresentation(a, b) end
+function game.MailboxPurchaseSuccessPresentation(a, b, c) end
 ---@alias game-Scripts-MailboxPresentation.MailboxPurchaseSuccessPresentation ...
 
 function game.MailboxScreenClosePresentation(a, b) end
@@ -21,12 +21,6 @@ function game.MailboxScreenMouseOverItem(a) end
 
 function game.MailboxScreenOpenPresentation(a) end
 ---@alias game-Scripts-MailboxPresentation.MailboxScreenOpenPresentation ...
-
-function game.MailboxScreenPurchaseFinishPresentation(a, b, c) end
----@alias game-Scripts-MailboxPresentation.MailboxScreenPurchaseFinishPresentation ...
-
-function game.MailboxSessionCompletePresentation(a, b) end
----@alias game-Scripts-MailboxPresentation.MailboxSessionCompletePresentation ...
 
 function game.SetupMailboxDeliveryPendingPresentation(a, b) end
 ---@alias game-Scripts-MailboxPresentation.SetupMailboxDeliveryPendingPresentation ...

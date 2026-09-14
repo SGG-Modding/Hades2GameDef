@@ -1,0 +1,49 @@
+---@meta game-Scripts-MusicPlayerLogic
+local game = {}
+
+function game.CloseMusicPlayerScreen(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.CloseMusicPlayerScreen ...
+
+function game.DoMusicPlayerPurchase(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.DoMusicPlayerPurchase ...
+
+function game.HandleMusicPlayerPurchase(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.HandleMusicPlayerPurchase ...
+
+function game.HasUnviewedMusicPlayerSong(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.HasUnviewedMusicPlayerSong ...
+
+function game.MusicPlayerDisplayItems(a) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerDisplayItems ...
+
+function game.MusicPlayerGetScrollOffsetForIndex(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerGetScrollOffsetForIndex ...
+
+function game.MusicPlayerGetShuffledPlaylist() end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerGetShuffledPlaylist ...
+
+function game.MusicPlayerScrollDown(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerScrollDown ...
+
+function game.MusicPlayerScrollUp(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerScrollUp ...
+
+function game.MusicPlayerShuffle(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerShuffle ...
+
+function game.MusicPlayerUpdateButtonStatus(a, b, c) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerUpdateButtonStatus ...
+
+function game.MusicPlayerUpdateVisibility(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.MusicPlayerUpdateVisibility ...
+
+function game.OpenMusicPlayerScreen(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.OpenMusicPlayerScreen ...
+
+function game.SelectMusicPlayerItem(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.SelectMusicPlayerItem ...
+
+function game.UseMusicPlayerScreenObject(a, b) end
+---@alias game-Scripts-MusicPlayerLogic.UseMusicPlayerScreenObject ...
+
+return game

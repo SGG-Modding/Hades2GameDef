@@ -25,9 +25,6 @@ function game.HandleWeaponUpgradeSelection(a, b) end
 function game.HasAnyAspectUnlocked(a) end
 ---@alias game-Scripts-WeaponUpgradeLogic.HasAnyAspectUnlocked ...
 
-function game.IsWeaponUpgradeAtMax(a) end
----@alias game-Scripts-WeaponUpgradeLogic.IsWeaponUpgradeAtMax ...
-
 function game.MouseOffWeaponUpgrade(a) end
 ---@alias game-Scripts-WeaponUpgradeLogic.MouseOffWeaponUpgrade ...
 
@@ -40,10 +37,16 @@ function game.OpenWeaponUpgradeScreen(a) end
 function game.SelectWeaponUpgrade(a, b, c) end
 ---@alias game-Scripts-WeaponUpgradeLogic.SelectWeaponUpgrade ...
 
-function game.UnequipWeaponUpgrade() end
+function game.UnequipLinkedSpell(a) end
+---@alias game-Scripts-WeaponUpgradeLogic.UnequipLinkedSpell ...
+
+function game.UnequipWeaponUpgrade(a) end
 ---@alias game-Scripts-WeaponUpgradeLogic.UnequipWeaponUpgrade ...
 
 function game.UpdateWeaponUpgradeButtons(a, b) end
 ---@alias game-Scripts-WeaponUpgradeLogic.UpdateWeaponUpgradeButtons ...
+
+function game.WeaponUpgradeScreenGetStats(a, b) end
+---@alias game-Scripts-WeaponUpgradeLogic.WeaponUpgradeScreenGetStats ...
 
 return game

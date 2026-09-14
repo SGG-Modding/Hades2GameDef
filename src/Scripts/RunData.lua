@@ -1,17 +1,38 @@
 ---@meta game-Scripts-RunData
 local game = {}
 
+game.FinishedDataRead = true
+---@alias game-Scripts-RunData.FinishedDataRead ...
+
 ---@class game-Scripts-RunData*GlobalTextLines
 
 ---@type game-Scripts-RunData*GlobalTextLines
 game.GlobalTextLines = ...
 ---@alias game-Scripts-RunData.GlobalTextLines ...
 
+---@class game-Scripts-RunData*Icons
+
+---@type game-Scripts-RunData*Icons
+game.Icons = ...
+---@alias game-Scripts-RunData.Icons ...
+
 ---@class game-Scripts-RunData*MetaUpgradeCardUpgradeData
 
 ---@type game-Scripts-RunData*MetaUpgradeCardUpgradeData
 game.MetaUpgradeCardUpgradeData = ...
 ---@alias game-Scripts-RunData.MetaUpgradeCardUpgradeData ...
+
+---@class game-Scripts-RunData*MetaUpgradeCostDataStore
+
+---@type game-Scripts-RunData*MetaUpgradeCostDataStore
+game.MetaUpgradeCostDataStore = ...
+---@alias game-Scripts-RunData.MetaUpgradeCostDataStore ...
+
+---@class game-Scripts-RunData*MetaUpgradeUnequipPatchData
+
+---@type game-Scripts-RunData*MetaUpgradeUnequipPatchData
+game.MetaUpgradeUnequipPatchData = ...
+---@alias game-Scripts-RunData.MetaUpgradeUnequipPatchData ...
 
 ---@class game-Scripts-RunData*PropertyOrderingValuesLookup
 
@@ -40,17 +61,11 @@ function game.AddLinkedWeapons(a) end
 function game.DeepInheritData(a, b) end
 ---@alias game-Scripts-RunData.DeepInheritData ...
 
-function game.HasPriority(a, b) end
----@alias game-Scripts-RunData.HasPriority ...
-
 function game.ProcessDataInheritance(a, b) end
 ---@alias game-Scripts-RunData.ProcessDataInheritance ...
 
 function game.ProcessDataStore(a) end
 ---@alias game-Scripts-RunData.ProcessDataStore ...
-
-function game.ProcessDirecetInheritance(a, b) end
----@alias game-Scripts-RunData.ProcessDirecetInheritance ...
 
 function game.ProcessSimpleExtractValues(a) end
 ---@alias game-Scripts-RunData.ProcessSimpleExtractValues ...

@@ -1,6 +1,9 @@
 ---@meta game-Scripts-DeathLoopLogic
 local game = {}
 
+function game.ActivateAmbientCritters(a, b) end
+---@alias game-Scripts-DeathLoopLogic.ActivateAmbientCritters ...
+
 function game.ClearMapBlockers(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.ClearMapBlockers ...
 
@@ -9,6 +12,24 @@ function game.DeathAreaRoomTransition(a, b) end
 
 function game.DeathAreaSwitchRoom(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.DeathAreaSwitchRoom ...
+
+function game.EasyModeIsAtCap() end
+---@alias game-Scripts-DeathLoopLogic.EasyModeIsAtCap ...
+
+function game.GamePhaseTick(a) end
+---@alias game-Scripts-DeathLoopLogic.GamePhaseTick ...
+
+function game.GetRunsUntilNextGamePhase() end
+---@alias game-Scripts-DeathLoopLogic.GetRunsUntilNextGamePhase ...
+
+function game.HideAmbientCritters(a, b) end
+---@alias game-Scripts-DeathLoopLogic.HideAmbientCritters ...
+
+function game.HubPostBountyLoad(a, b) end
+---@alias game-Scripts-DeathLoopLogic.HubPostBountyLoad ...
+
+function game.HubPostDreamLoad(a, b) end
+---@alias game-Scripts-DeathLoopLogic.HubPostDreamLoad ...
 
 function game.KillHero(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.KillHero ...
@@ -31,10 +52,13 @@ function game.SetupCamera(a, b) end
 function game.SetupDynamicLitter(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.SetupDynamicLitter ...
 
+function game.ShouldIncrementEasyMode() end
+---@alias game-Scripts-DeathLoopLogic.ShouldIncrementEasyMode ...
+
 function game.SpawnSkelly(a) end
 ---@alias game-Scripts-DeathLoopLogic.SpawnSkelly ...
 
-function game.StartDeathLoop(a) end
+function game.StartDeathLoop(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.StartDeathLoop ...
 
 function game.StartOver(a) end
@@ -45,6 +69,9 @@ function game.UnlockDeathAreaInteractables() end
 
 function game.UpdateAffordabilityStatus() end
 ---@alias game-Scripts-DeathLoopLogic.UpdateAffordabilityStatus ...
+
+function game.UseDreamRunDoor(a, b) end
+---@alias game-Scripts-DeathLoopLogic.UseDreamRunDoor ...
 
 function game.UseEscapeDoor(a, b) end
 ---@alias game-Scripts-DeathLoopLogic.UseEscapeDoor ...

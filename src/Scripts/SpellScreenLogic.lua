@@ -22,10 +22,4 @@ function game.MouseOverSpellButton(a) end
 function game.OpenSpellScreen(a, b, c) end
 ---@alias game-Scripts-SpellScreenLogic.OpenSpellScreen ...
 
-function game.SpellScreenCloseTraitTray(a, b) end
----@alias game-Scripts-SpellScreenLogic.SpellScreenCloseTraitTray ...
-
-function game.SpellScreenOpenTraitTray(a, b) end
----@alias game-Scripts-SpellScreenLogic.SpellScreenOpenTraitTray ...
-
 return game

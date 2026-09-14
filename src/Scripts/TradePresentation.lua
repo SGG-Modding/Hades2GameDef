@@ -4,6 +4,9 @@ local game = {}
 function game.NemesisDropPresentation(a, b) end
 ---@alias game-Scripts-TradePresentation.NemesisDropPresentation ...
 
+function game.NemesisPostDropPresentation(a, b, c) end
+---@alias game-Scripts-TradePresentation.NemesisPostDropPresentation ...
+
 function game.NemesisTakeDamagePostCostPresentation(a, b) end
 ---@alias game-Scripts-TradePresentation.NemesisTakeDamagePostCostPresentation ...
 

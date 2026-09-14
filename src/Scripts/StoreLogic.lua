@@ -19,7 +19,7 @@ function game.CheckShoppingEventThread(a, b) end
 function game.CloseStoreScreen(a, b) end
 ---@alias game-Scripts-StoreLogic.CloseStoreScreen ...
 
-function game.CreateStoreButtons(a) end
+function game.CreateStoreButtons(a, b) end
 ---@alias game-Scripts-StoreLogic.CreateStoreButtons ...
 
 function game.DestroyStoreButtons(a) end
@@ -28,11 +28,8 @@ function game.DestroyStoreButtons(a) end
 function game.FillInShopOptions(a) end
 ---@alias game-Scripts-StoreLogic.FillInShopOptions ...
 
-function game.GetPreviousStore(a) end
----@alias game-Scripts-StoreLogic.GetPreviousStore ...
-
-function game.GiveRandomTemporaryKeepsake(a) end
----@alias game-Scripts-StoreLogic.GiveRandomTemporaryKeepsake ...
+function game.GetShopCostMultiplier() end
+---@alias game-Scripts-StoreLogic.GetShopCostMultiplier ...
 
 function game.HandleStorePurchase(a, b) end
 ---@alias game-Scripts-StoreLogic.HandleStorePurchase ...
@@ -51,6 +48,9 @@ function game.RemoveStoreItem(a) end
 
 function game.RerollStore(a, b) end
 ---@alias game-Scripts-StoreLogic.RerollStore ...
+
+function game.RestockWorldItem(a, b, c) end
+---@alias game-Scripts-StoreLogic.RestockWorldItem ...
 
 function game.RunShopGeneration(a) end
 ---@alias game-Scripts-StoreLogic.RunShopGeneration ...
@@ -82,16 +82,19 @@ function game.StoreItemNameEligible(a, b) end
 function game.UnwrapRandomLoot(a) end
 ---@alias game-Scripts-StoreLogic.UnwrapRandomLoot ...
 
-function game.UpdateCostButton(a) end
+function game.UpdateCostButton(a, b) end
 ---@alias game-Scripts-StoreLogic.UpdateCostButton ...
 
 function game.UpdateCostText(a, b) end
 ---@alias game-Scripts-StoreLogic.UpdateCostText ...
 
+function game.UpdateStoreItemCostText() end
+---@alias game-Scripts-StoreLogic.UpdateStoreItemCostText ...
+
 function game.UpdateStoreOptionsDictionary() end
 ---@alias game-Scripts-StoreLogic.UpdateStoreOptionsDictionary ...
 
-function game.UpdateStoreReroll(a) end
+function game.UpdateStoreReroll(a, b, c) end
 ---@alias game-Scripts-StoreLogic.UpdateStoreReroll ...
 
 return game

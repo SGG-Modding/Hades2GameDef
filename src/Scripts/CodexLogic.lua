@@ -46,12 +46,6 @@ function game.CodexScrollDown(a, b) end
 function game.CodexScrollUp(a, b) end
 ---@alias game-Scripts-CodexLogic.CodexScrollUp ...
 
-function game.CodexUpdateCursorDown(a, b) end
----@alias game-Scripts-CodexLogic.CodexUpdateCursorDown ...
-
-function game.CodexUpdateCursorUp(a, b) end
----@alias game-Scripts-CodexLogic.CodexUpdateCursorUp ...
-
 function game.CodexUpdateVisibility(a, b) end
 ---@alias game-Scripts-CodexLogic.CodexUpdateVisibility ...
 
@@ -64,9 +58,6 @@ function game.CreateRelationshipBar(a, b) end
 function game.EnableCodex() end
 ---@alias game-Scripts-CodexLogic.EnableCodex ...
 
-function game.HasCodexEntryBeenFound(a, b) end
----@alias game-Scripts-CodexLogic.HasCodexEntryBeenFound ...
-
 function game.HasNewEntries() end
 ---@alias game-Scripts-CodexLogic.HasNewEntries ...
 
@@ -76,11 +67,14 @@ function game.HasUnlockedEntries(a) end
 function game.InitKillCountText(a, b) end
 ---@alias game-Scripts-CodexLogic.InitKillCountText ...
 
-function game.OnlyBoonScreenOpen() end
----@alias game-Scripts-CodexLogic.OnlyBoonScreenOpen ...
-
 function game.OpenCodexScreen() end
 ---@alias game-Scripts-CodexLogic.OpenCodexScreen ...
+
+function game.RemoveEventWithName(a, b) end
+---@alias game-Scripts-CodexLogic.RemoveEventWithName ...
+
+function game.RemoveNextEventWithResource(a, b) end
+---@alias game-Scripts-CodexLogic.RemoveNextEventWithResource ...
 
 function game.SelectCodexEntry(a) end
 ---@alias game-Scripts-CodexLogic.SelectCodexEntry ...
@@ -90,5 +84,8 @@ function game.SelectNearbyUnlockedEntry() end
 
 function game.UpdateCodexContextualAction(a, b) end
 ---@alias game-Scripts-CodexLogic.UpdateCodexContextualAction ...
+
+function game.ValidateCodexCategories() end
+---@alias game-Scripts-CodexLogic.ValidateCodexCategories ...
 
 return game

@@ -1,7 +1,7 @@
 ---@meta game-Scripts-BadgePresentation
 local game = {}
 
-function game.BadgeCannotAffordPresentation(a, b) end
+function game.BadgeCannotAffordPresentation(a) end
 ---@alias game-Scripts-BadgePresentation.BadgeCannotAffordPresentation ...
 
 function game.BadgePurchasePresentation(a, b) end

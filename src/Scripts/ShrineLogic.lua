@@ -1,6 +1,12 @@
 ---@meta game-Scripts-ShrineLogic
 local game = {}
 
+function game.AddEnemyHealthMultiplier(a, b) end
+---@alias game-Scripts-ShrineLogic.AddEnemyHealthMultiplier ...
+
+function game.AddEnemySpeedMultiplier(a, b) end
+---@alias game-Scripts-ShrineLogic.AddEnemySpeedMultiplier ...
+
 function game.ApplyEliteAttribute(a, b) end
 ---@alias game-Scripts-ShrineLogic.ApplyEliteAttribute ...
 
@@ -16,7 +22,7 @@ function game.CheckEggRespawn(a, b) end
 function game.CheckNewTraitManaReserveShrineUpgrade(a, b) end
 ---@alias game-Scripts-ShrineLogic.CheckNewTraitManaReserveShrineUpgrade ...
 
-function game.CheckPrevTraitsManaReserveShrineUpgrade(a, b) end
+function game.CheckPrevTraitsManaReserveShrineUpgrade(a) end
 ---@alias game-Scripts-ShrineLogic.CheckPrevTraitsManaReserveShrineUpgrade ...
 
 function game.CloseShrineUpgradeScreen(a, b) end
@@ -25,8 +31,14 @@ function game.CloseShrineUpgradeScreen(a, b) end
 function game.DisableBiomeSpeedShrineUpgrade(a, b) end
 ---@alias game-Scripts-ShrineLogic.DisableBiomeSpeedShrineUpgrade ...
 
+function game.EliteSpreadHitShields(a) end
+---@alias game-Scripts-ShrineLogic.EliteSpreadHitShields ...
+
 function game.ErisCurseEnemySetup(a, b, c) end
 ---@alias game-Scripts-ShrineLogic.ErisCurseEnemySetup ...
+
+function game.ErisCurseRewardTaken(a, b) end
+---@alias game-Scripts-ShrineLogic.ErisCurseRewardTaken ...
 
 function game.ErisCurseUpdate(a, b) end
 ---@alias game-Scripts-ShrineLogic.ErisCurseUpdate ...
@@ -40,8 +52,14 @@ function game.GetNumShrineUpgrades(a) end
 function game.GetShrineUpgradeChangeValue(a) end
 ---@alias game-Scripts-ShrineLogic.GetShrineUpgradeChangeValue ...
 
+function game.GetShrineUpgradeMaxRank(a) end
+---@alias game-Scripts-ShrineLogic.GetShrineUpgradeMaxRank ...
+
 function game.GetTotalSpentShrinePoints() end
 ---@alias game-Scripts-ShrineLogic.GetTotalSpentShrinePoints ...
+
+function game.IsBossDifficultyShrineUpgradeActive(a, b) end
+---@alias game-Scripts-ShrineLogic.IsBossDifficultyShrineUpgradeActive ...
 
 function game.IsEliteAttributeEligible(a, b) end
 ---@alias game-Scripts-ShrineLogic.IsEliteAttributeEligible ...
@@ -51,6 +69,12 @@ function game.OpenShrineScreen(a) end
 
 function game.PickEliteAttributes(a, b) end
 ---@alias game-Scripts-ShrineLogic.PickEliteAttributes ...
+
+function game.RemoveBoonManaReserve() end
+---@alias game-Scripts-ShrineLogic.RemoveBoonManaReserve ...
+
+function game.RemoveEnemyDamageShrineUpgrade(a, b) end
+---@alias game-Scripts-ShrineLogic.RemoveEnemyDamageShrineUpgrade ...
 
 function game.RespawnEggCountdown(a, b) end
 ---@alias game-Scripts-ShrineLogic.RespawnEggCountdown ...
@@ -72,6 +96,9 @@ function game.ShrineScreenRankDown(a, b) end
 
 function game.ShrineScreenRankUp(a, b) end
 ---@alias game-Scripts-ShrineLogic.ShrineScreenRankUp ...
+
+function game.ShrineScreenUpdateSkellyText(a) end
+---@alias game-Scripts-ShrineLogic.ShrineScreenUpdateSkellyText ...
 
 function game.ShrineUpgradeExtractValues(a) end
 ---@alias game-Scripts-ShrineLogic.ShrineUpgradeExtractValues ...

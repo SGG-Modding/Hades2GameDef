@@ -1,7 +1,10 @@
 ---@meta game-Scripts-FamiliarShopLogic
 local game = {}
 
-function game.CloseFamiliarShopScreen(a, b) end
+function game.AnyFamiliarUpgradesAvailable(a, b) end
+---@alias game-Scripts-FamiliarShopLogic.AnyFamiliarUpgradesAvailable ...
+
+function game.CloseFamiliarShopScreen(a, b, c) end
 ---@alias game-Scripts-FamiliarShopLogic.CloseFamiliarShopScreen ...
 
 function game.DoFamiliarShopPurchase(a, b) end
@@ -10,11 +13,11 @@ function game.DoFamiliarShopPurchase(a, b) end
 function game.FamiliarShopScreenDisplayCategory(a) end
 ---@alias game-Scripts-FamiliarShopLogic.FamiliarShopScreenDisplayCategory ...
 
-function game.FamiliarShopScreenHideItems(a) end
----@alias game-Scripts-FamiliarShopLogic.FamiliarShopScreenHideItems ...
-
 function game.FamiliarShopUpdateVisibility(a) end
 ---@alias game-Scripts-FamiliarShopLogic.FamiliarShopUpdateVisibility ...
+
+function game.GetFamiliarTraitStacks(a) end
+---@alias game-Scripts-FamiliarShopLogic.GetFamiliarTraitStacks ...
 
 function game.GiftFamiliarUpgrade(a, b) end
 ---@alias game-Scripts-FamiliarShopLogic.GiftFamiliarUpgrade ...

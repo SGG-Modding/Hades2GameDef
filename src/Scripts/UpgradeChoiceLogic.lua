@@ -1,20 +1,23 @@
 ---@meta game-Scripts-UpgradeChoiceLogic
 local game = {}
 
+function game.AttemptOpenUpgradeChoiceBoonInfo(a, b) end
+---@alias game-Scripts-UpgradeChoiceLogic.AttemptOpenUpgradeChoiceBoonInfo ...
+
 function game.CloseUpgradeChoiceScreen(a, b) end
 ---@alias game-Scripts-UpgradeChoiceLogic.CloseUpgradeChoiceScreen ...
 
-function game.CreateBoonLootButtons(a, b, c) end
+function game.CreateBoonLootButtons(a, b, c, d) end
 ---@alias game-Scripts-UpgradeChoiceLogic.CreateBoonLootButtons ...
 
-function game.CreateUpgradeChoiceButton(a, b, c, d) end
+function game.CreateUpgradeChoiceButton(a, b, c, d, e) end
 ---@alias game-Scripts-UpgradeChoiceLogic.CreateUpgradeChoiceButton ...
+
+function game.DestroyBoonLootButton(a, b) end
+---@alias game-Scripts-UpgradeChoiceLogic.DestroyBoonLootButton ...
 
 function game.DestroyBoonLootButtons(a, b) end
 ---@alias game-Scripts-UpgradeChoiceLogic.DestroyBoonLootButtons ...
-
-function game.GetDowngradedRarity(a) end
----@alias game-Scripts-UpgradeChoiceLogic.GetDowngradedRarity ...
 
 function game.GetEligibleTraitUpgrades(a) end
 ---@alias game-Scripts-UpgradeChoiceLogic.GetEligibleTraitUpgrades ...
@@ -46,6 +49,12 @@ function game.GetUpgradedRarity(a, b) end
 function game.HandleUpgradeChoiceSelection(a, b, c) end
 ---@alias game-Scripts-UpgradeChoiceLogic.HandleUpgradeChoiceSelection ...
 
+function game.IsBoonPinned(a) end
+---@alias game-Scripts-UpgradeChoiceLogic.IsBoonPinned ...
+
+function game.IsBoonRequiredForPins(a) end
+---@alias game-Scripts-UpgradeChoiceLogic.IsBoonRequiredForPins ...
+
 function game.LogUpgradeChoice(a) end
 ---@alias game-Scripts-UpgradeChoiceLogic.LogUpgradeChoice ...
 
@@ -75,6 +84,9 @@ function game.UpgradeChoiceRetaliate(a, b) end
 
 function game.UpgradeChoiceScreenCheckRarifyButton(a, b) end
 ---@alias game-Scripts-UpgradeChoiceLogic.UpgradeChoiceScreenCheckRarifyButton ...
+
+function game.UpgradeChoiceScreenCloseBoonInfo(a, b) end
+---@alias game-Scripts-UpgradeChoiceLogic.UpgradeChoiceScreenCloseBoonInfo ...
 
 function game.UpgradeChoiceScreenCloseTraitTray(a, b) end
 ---@alias game-Scripts-UpgradeChoiceLogic.UpgradeChoiceScreenCloseTraitTray ...

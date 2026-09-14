@@ -1,0 +1,43 @@
+---@meta game-Scripts-PresentationBiomeF
+local game = {}
+
+function game.HecateBattleStart(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateBattleStart ...
+
+function game.HecateBossDreamRunIntro(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateBossDreamRunIntro ...
+
+function game.HecateCloneHitPresentation(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateCloneHitPresentation ...
+
+function game.HecateDarkSideEndPresentation(a) end
+---@alias game-Scripts-PresentationBiomeF.HecateDarkSideEndPresentation ...
+
+function game.HecateDarkSideTransformPresentation(a) end
+---@alias game-Scripts-PresentationBiomeF.HecateDarkSideTransformPresentation ...
+
+function game.HecateKidnappingEntrancePresentation(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateKidnappingEntrancePresentation ...
+
+function game.HecateKidnappingExitPresentation(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateKidnappingExitPresentation ...
+
+function game.HecateKillPresentation(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateKillPresentation ...
+
+function game.HecateLightTorches(a) end
+---@alias game-Scripts-PresentationBiomeF.HecateLightTorches ...
+
+function game.HecateMissingPresentation(a, b) end
+---@alias game-Scripts-PresentationBiomeF.HecateMissingPresentation ...
+
+function game.SpawnHecateClones(a, b) end
+---@alias game-Scripts-PresentationBiomeF.SpawnHecateClones ...
+
+function game.SummonAthena(a, b) end
+---@alias game-Scripts-PresentationBiomeF.SummonAthena ...
+
+function game.UnSummonAthena(a, b) end
+---@alias game-Scripts-PresentationBiomeF.UnSummonAthena ...
+
+return game

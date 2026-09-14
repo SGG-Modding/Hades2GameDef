@@ -4,16 +4,37 @@ local game = {}
 function game.CheckSpellOutOfManaPresentation(a, b, c) end
 ---@alias game-Scripts-SpellPresentation.CheckSpellOutOfManaPresentation ...
 
+function game.CleanUpShoutPresentation(a, b, c) end
+---@alias game-Scripts-SpellPresentation.CleanUpShoutPresentation ...
+
 function game.CreateSpellHUD(a, b) end
 ---@alias game-Scripts-SpellPresentation.CreateSpellHUD ...
+
+function game.DelayedHephaestusLeapPresentation(a, b, c, d) end
+---@alias game-Scripts-SpellPresentation.DelayedHephaestusLeapPresentation ...
+
+function game.DoFullSuperPresentation(a) end
+---@alias game-Scripts-SpellPresentation.DoFullSuperPresentation ...
+
+function game.FirstTimeDuoTalentPresentation(a) end
+---@alias game-Scripts-SpellPresentation.FirstTimeDuoTalentPresentation ...
+
+function game.PoseidonPotionWarnPresentation() end
+---@alias game-Scripts-SpellPresentation.PoseidonPotionWarnPresentation ...
 
 function game.SelectSpellPresentation(a, b) end
 ---@alias game-Scripts-SpellPresentation.SelectSpellPresentation ...
 
-function game.SpellActivateTrait(a) end
+function game.ShoutSlow() end
+---@alias game-Scripts-SpellPresentation.ShoutSlow ...
+
+function game.SpellActivateTrait(a, b) end
 ---@alias game-Scripts-SpellPresentation.SpellActivateTrait ...
 
-function game.SpellChargeEndPresentation() end
+function game.SpellBloodMoonBeamHitPresentation(a, b, c) end
+---@alias game-Scripts-SpellPresentation.SpellBloodMoonBeamHitPresentation ...
+
+function game.SpellChargeEndPresentation(a) end
 ---@alias game-Scripts-SpellPresentation.SpellChargeEndPresentation ...
 
 function game.SpellChargeNumber(a, b, c) end
@@ -40,7 +61,7 @@ function game.SpellMeteorPresentation(a, b) end
 function game.SpellMeteorPresentationThreaded(a, b) end
 ---@alias game-Scripts-SpellPresentation.SpellMeteorPresentationThreaded ...
 
-function game.SpellPolymorphResistedPresentation(a) end
+function game.SpellPolymorphResistedPresentation(a, b) end
 ---@alias game-Scripts-SpellPresentation.SpellPolymorphResistedPresentation ...
 
 function game.SpellPotionUsedPresentation(a, b) end
@@ -51,9 +72,6 @@ function game.SpellReadyPresentation(a, b) end
 
 function game.SpellReloadPresentation(a, b) end
 ---@alias game-Scripts-SpellPresentation.SpellReloadPresentation ...
-
-function game.SpellSummonPresentation(a) end
----@alias game-Scripts-SpellPresentation.SpellSummonPresentation ...
 
 function game.SpellTransformEndPresentation(a, b, c, d) end
 ---@alias game-Scripts-SpellPresentation.SpellTransformEndPresentation ...

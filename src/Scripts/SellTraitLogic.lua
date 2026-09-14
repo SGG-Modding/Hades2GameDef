@@ -1,19 +1,13 @@
 ---@meta game-Scripts-SellTraitLogic
 local game = {}
 
-function game.CloseSellTraitScreen(a, b) end
----@alias game-Scripts-SellTraitLogic.CloseSellTraitScreen ...
-
-function game.CreateSellButtons() end
+function game.CreateSellButtons(a) end
 ---@alias game-Scripts-SellTraitLogic.CreateSellButtons ...
 
-function game.DestroySellButtons() end
----@alias game-Scripts-SellTraitLogic.DestroySellButtons ...
-
-function game.GenerateSellTraitShop(a, b, c) end
+function game.GenerateSellTraitShop(a, b) end
 ---@alias game-Scripts-SellTraitLogic.GenerateSellTraitShop ...
 
-function game.GenerateSellTraitValues(a, b, c) end
+function game.GenerateSellTraitValues(a, b) end
 ---@alias game-Scripts-SellTraitLogic.GenerateSellTraitValues ...
 
 function game.GetBaseRarityValue(a) end
@@ -25,10 +19,22 @@ function game.GetTraitValue(a) end
 function game.HandleSellChoiceSelection(a, b) end
 ---@alias game-Scripts-SellTraitLogic.HandleSellChoiceSelection ...
 
+function game.IsSellTraitShopEligible(a) end
+---@alias game-Scripts-SellTraitLogic.IsSellTraitShopEligible ...
+
+function game.MouseOffSellShopButton(a) end
+---@alias game-Scripts-SellTraitLogic.MouseOffSellShopButton ...
+
+function game.MouseOverSellShopButton(a) end
+---@alias game-Scripts-SellTraitLogic.MouseOverSellShopButton ...
+
 function game.OpenSellTraitMenu(a) end
 ---@alias game-Scripts-SellTraitLogic.OpenSellTraitMenu ...
 
-function game.RerollSellTraitScreen() end
----@alias game-Scripts-SellTraitLogic.RerollSellTraitScreen ...
+function game.SellTraitScreenDestroyButtons(a) end
+---@alias game-Scripts-SellTraitLogic.SellTraitScreenDestroyButtons ...
+
+function game.SellTraitScreenReroll(a) end
+---@alias game-Scripts-SellTraitLogic.SellTraitScreenReroll ...
 
 return game

@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "SGG_Modding"
 name = "Hades2GameDef"
-versionNumber = "2.0.0"
+versionNumber = "2.1.0"
 description = "For mod developers only! Community sourced luaCATS definitions for Hades 2 in the context of ReturnOfModding"
 websiteUrl = "https://github.com/SGG-Modding/Hades2GameDef"
 containsNsfwContent = false
